@@ -1,0 +1,18 @@
+---
+title: "Tutorial"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Why doesn't this verbatim chunk appear when we run the document? 
+
+```{verbatim}
+2 + 2
+```
+
+The same chunk works fine in the regular.Rmd file.

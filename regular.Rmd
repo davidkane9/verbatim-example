@@ -1,0 +1,12 @@
+---
+title: "Regular"
+output: html_document
+---
+
+This verbatim code chunk works fine.
+
+```{verbatim}
+2 + 2
+```
+
+Unlike the same example in tutorial.Rmd.
